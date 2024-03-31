@@ -15,3 +15,5 @@ Predicted vs Actual values are revealed for each model.
 
 The model with the best R2 score is then selected and displayed.
 A feature to generate the importance of features in a graph is also implemented. If the best model selected supports the built-in attribute "feature_importances_" , the graph is generated.Else, not.
+
+Implemented classifier algorithms on supervised learning model to utilize historical sales data of the supermarkets to forecast future sales and gross income.
