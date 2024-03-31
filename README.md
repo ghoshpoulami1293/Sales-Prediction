@@ -6,7 +6,7 @@ Baplots, countplots, line charts, pie plots, heatmaps, joinplots are generated t
 
 This EDA then leads to the next part of the project - Sales Prediction.
 
-As a part of this SalesPrediction , I have implemented machine Learning algorithms to predict the sales totals.
+As a part of this SalesPrediction , I have utilized historical sales data of the supermarkets and implemented machine Learning algorithms to predict the sales totals.The algorithms were selected based on the continuous data values being predicted.
 The data is first preprocessed, split , tuned and the predictions are made.
 The dataset is divided into a training and testset in the ratio 70% :30% and the machine learning algorithms like Linear Regression, Random Forest Classification model and Gradient Boosting are implemented.
 
@@ -16,4 +16,7 @@ Predicted vs Actual values are revealed for each model.
 The model with the best R2 score is then selected and displayed.
 A feature to generate the importance of features in a graph is also implemented. If the best model selected supports the built-in attribute "feature_importances_" , the graph is generated.Else, not.
 
-Implemented classifier algorithms on supervised learning model to utilize historical sales data of the supermarkets to forecast future sales and gross income.
+The accuracy of the models is calculated utilizing the generated R scores which are represented as follows:
+Linear Regression R-squared (R2) Score: 1.0 
+Random Forest R-squared (R2) Score: 0.9999154708845687
+Gradient Boosting R-squared (R2) Score: 0.9999383758639572
