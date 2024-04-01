@@ -9,7 +9,7 @@ An extensive exploratory data analysis (EDA) is conducted to uncover trends in s
 
 The EDA serves as a foundation for the subsequent task of sales prediction. Historical sales data from the supermarkets is utilized, and machine learning algorithms are implemented to predict sales totals. The selection of algorithms is based on the continuous nature of the data being predicted.
 
-The dataset is preprocessed, split, tuned, and predictions are made. A 70:30 split ratio is used to divide the dataset into training and test sets. Machine learning algorithms including Linear Regression, Random Forest Classification, and Gradient Boosting are applied to fit the training data and predict total sales values for the test set.
+The dataset is preprocessed, split, tuned, and predictions are made. A 70:30 split ratio is used to divide the dataset into training and test sets. Machine learning algorithms including Linear Regression, Random Forest Regressor, and Gradient Boosting are applied to fit the training data and predict total sales values for the test set.
 
 Evaluation metrics such as Mean Squared Error (MSE), Mean Absolute Error (MAE), and R-squared (R2) Score are calculated for each model. Predicted versus actual values are visualized for each model. The model with the best R2 score is selected and displayed.
 
