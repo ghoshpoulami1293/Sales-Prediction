@@ -15,7 +15,8 @@ Evaluation metrics such as Mean Squared Error (MSE), Mean Absolute Error (MAE), 
 
 Additionally, a feature to generate the importance of features in a graph is implemented. If the best model selected supports the built-in attribute "feature_importances_", the graph is generated; otherwise, it is not.
 
-The accuracy of the models is calculated using the generated R scores, represented as follows:
+The R-squared (R2) score is a measure used to assess the goodness of fit of a regression model. While it is related to accuracy, it is not exactly a measure of accuracy in the same sense as accuracy is used in classification tasks.
+The calculated R scores are as follows:
 Linear Regression R-squared (R2) Score: 1.0
 Random Forest R-squared (R2) Score: 0.9999154708845687
 Gradient Boosting R-squared (R2) Score: 0.9999383758639572
